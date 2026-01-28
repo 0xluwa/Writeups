@@ -24,7 +24,7 @@ nmcli connection up intbr0
 If you have a secondary NIC for interserver internal network, you can set the following  
 Assuming you have eth1 as the secondary NIC :
 
-![[attachments/Pasted image 20260128161258.png]]
+![](attachments/Pasted%20image%2020260128161945.png)
 
 
 ```
@@ -41,8 +41,8 @@ nmcli connection up intbr0
 nmcli connection up eno1
 ```
 
-![[attachments/Pasted image 20260128161225.png]]
-![[attachments/Pasted image 20260128161155.png]]
+![](attachments/Pasted%20image%2020260128161927.png)
+![](attachments/Pasted%20image%2020260128161746.png)
 adding the ip internal ip pool.
 
 
