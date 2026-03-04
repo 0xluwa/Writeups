@@ -59,3 +59,5 @@ adding the ip internal ip pool.
 - Internal LAN successfully isolated and routable.
     
 - Internal machines can communicate with each other and access external networks **only through pfSense**, enabling realistic lab and CTF-style environments.
+
+Bankai!!
