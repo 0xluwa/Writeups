@@ -175,7 +175,8 @@ and got a weird response
 ![](attachments/Pasted%20image%2020260304125123.png)
 
 Figured i should get a way by using parameters like home, internal, localhost e.t.c
-Got into the python sandbox page, but observed sumn, in the url after sending a url...
+Got into the python sandbox page, but observed sumn, in the url after sending a code...
+
 ![](attachments/Pasted%20image%2020260304125632.png)
 
 The application fetches url from the internal.nova.thm and executes it as code...so we have to find a possible 'url' what can be executed to help us read the flag in the application, 'flag.txt'
