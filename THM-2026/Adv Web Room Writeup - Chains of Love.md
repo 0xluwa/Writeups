@@ -16,9 +16,12 @@ Tried Directory fuzzing and found some endpoints
 >Gaining Access
 
 Couldnt bruteforce my way into the admin page,
+
 ![](attachments/Pasted%20image%2020260304123644.png)
 
+
 Checked the source code n saw sumn interesting, 
+
 ![](attachments/Pasted%20image%2020260304123940.png)
 
 Didn't really mean much so i checked the app.py dir i found earlier
@@ -174,6 +177,7 @@ and got a weird response
 Figured i should get a way by using parameters like home, internal, localhost e.t.c
 Got into the python sandbox page, but observed sumn, in the url after sending a url...
 ![](attachments/Pasted%20image%2020260304125632.png)
+
 The application fetches url from the internal.nova.thm and executes it as code...so we have to find a possible 'url' what can be executed to help us read the flag in the application, 'flag.txt'
 
 ![](attachments/Pasted%20image%2020260304130442.png)
